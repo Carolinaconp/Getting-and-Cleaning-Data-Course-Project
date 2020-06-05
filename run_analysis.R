@@ -74,9 +74,9 @@ names(tidy_data)[68]
 
 
 
-Data2<-aggregate(. ~subject + activity, tidy_data, mean)
-Data2<-Data2[order(Data2$subject,Data2$activity),]
+tidy_data2<-aggregate(. ~subject + activity, tidy_data, mean)
+tidy_data2<-Data2[order(tidy_data2$subject,tidy_data2$activity),]
 
 
-write.table(Data2, "FinalData.txt", row.name=FALSE)
+write.table(tidy_data2, "FinalData.txt", row.name=FALSE)
 
