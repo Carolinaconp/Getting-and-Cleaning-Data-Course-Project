@@ -12,8 +12,8 @@ And also use the features.txt wich contains thecorrect variable name that corres
 
 Further information about those data sets can be found in 
 
--features_info.txt
--README.txt 
+- features_info.txt
+- README.txt 
 
 where the last one gives a general description about the URI HAR Dataset.
 
